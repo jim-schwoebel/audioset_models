@@ -2,7 +2,7 @@
 List of models built with nlx-models repository. 
 
 | Model Name | Accuracy | Standard Deviation | Modeltype |
-|-----|-----|-----|-----|
+|-------|-------|-------|-------|
 | Splinter_Splinter_controls_sc_audio | 0.8539682539682539 | 0.10737482238277947 | random forest |
 | Soundeffect_Soundeffect_controls_sc_audio | 0.7353174603174604 | 0.2210841036845264 | knn |
 | Chopping(food)_Chopping(food)_controls_sc_audio | 0.8178571428571428 | 0.12494896917525643 | logistic regression |
