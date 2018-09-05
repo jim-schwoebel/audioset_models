@@ -1,7 +1,7 @@
 # audioset-models
 List of models built with nlx-models repository. 
 
-Model Name	Accuracy	Standard Deviation	Modeltype
+| Model Name	| Accuracy	Standard Deviation	Modeltype
 Boom_Boom_controls	0.977777778	0.044444444	logistic regression
 Capgun_Capgun_controls	0.975	0.05	logistic regression
 Changeringing(campanology)_Changeringing(campanology)_controls	0.955555556	0.054433105	random forest
