@@ -1,7 +1,7 @@
 # audioset-models
 This repository makes it easy to apply 527 machine learning models trained on [download_audioset](https://github.com/jim-schwoebel/download_audioset) on new audio files.
 
-These machine learning models were trained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository.
+These machine learning models were trained from scripts obtained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository.
 
 ![](https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif)
 
