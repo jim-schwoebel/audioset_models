@@ -1,5 +1,5 @@
 # audioset-models
-List of models built with nlx-models repository. 
+List of models built with nlx-models repository, trained on [Audioset_Download]() folders.
 
 | Model Name | Accuracy | Standard Deviation | Modeltype |
 |-----|-----|-----|-----|
