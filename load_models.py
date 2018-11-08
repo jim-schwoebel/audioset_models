@@ -189,70 +189,70 @@ except:
 listdir=os.listdir()
 print(os.getcwd())
 for i in range(len(listdir)):
-#try:
-    if listdir[i][-5:] not in ['Store','.json']:
-        if listdir[i][-4:] != '.wav':
-            if listdir[i][-5:] != '.json':
-                filename=convert(listdir[i])
-        else:
-            filename=listdir[i]
+    try:
+        if listdir[i][-5:] not in ['Store','.json']:
+            if listdir[i][-4:] != '.wav':
+                if listdir[i][-5:] != '.json':
+                    filename=convert(listdir[i])
+            else:
+                filename=listdir[i]
 
-        print(filename)
+            print(filename)
 
-        if filename[0:-4]+'.json' not in listdir:
-            
-            features=featurize(filename)
-            features=features.reshape(1,-1)
+            if filename[0:-4]+'.json' not in listdir:
 
-            os.chdir(model_dir)
+                features=featurize(filename)
+                features=features.reshape(1,-1)
 
-            class_list=list()
-            model_acc=list()
-            deviations=list()
-            modeltypes=list()
-            
-            for j in range(len(model_list)):
-                modelname=model_list[j]
-                i1=modelname.find('_')
-                name1=modelname[0:i1]
-                i2=modelname[i1:]
-                i3=i2.find('_')
-                name2=i2[0:i3]
+                os.chdir(model_dir)
 
-                loadmodel=open(modelname, 'rb')
-                model = pickle.load(loadmodel)
-                loadmodel.close()
-                
-                output=str(model.predict(features)[0])
-                print(output)
-                classname=output
-                class_list.append(classname)
+                class_list=list()
+                model_acc=list()
+                deviations=list()
+                modeltypes=list()
 
-                g=json.load(open(modelname[0:-7]+'.json'))
-                model_acc.append(g['accuracy'])
-                deviations.append(g['deviation'])
-                modeltypes.append(g['modeltype'])
+                for j in range(len(model_list)):
+                    modelname=model_list[j]
+                    i1=modelname.find('_')
+                    name1=modelname[0:i1]
+                    i2=modelname[i1:]
+                    i3=i2.find('_')
+                    name2=i2[0:i3]
 
-            os.chdir(load_dir)
+                    loadmodel=open(modelname, 'rb')
+                    model = pickle.load(loadmodel)
+                    loadmodel.close()
 
-            jsonfilename=filename[0:-4]+'.json'
-            jsonfile=open(jsonfilename,'w')
-            data={
-                'filename':filename,
-                'filetype':'audio file',
-                'class':class_list,
-                'model':model_list,
-                'model accuracies':model_acc,
-                'model deviations':deviations,
-                'model types':modeltypes,
-                'features':features.tolist(),
-                'count':count,
-                'errorcount':errorcount,
-                }
-            json.dump(data,jsonfile)
-            jsonfile.close()
-            
-        count=count+1
-    # except:
-    #     errorcount=errorcount+1
-    #     count=count+1 
+                    output=str(model.predict(features)[0])
+                    print(output)
+                    classname=output
+                    class_list.append(classname)
+
+                    g=json.load(open(modelname[0:-7]+'.json'))
+                    model_acc.append(g['accuracy'])
+                    deviations.append(g['deviation'])
+                    modeltypes.append(g['modeltype'])
+
+                os.chdir(load_dir)
+
+                jsonfilename=filename[0:-4]+'.json'
+                jsonfile=open(jsonfilename,'w')
+                data={
+                    'filename':filename,
+                    'filetype':'audio file',
+                    'class':class_list,
+                    'model':model_list,
+                    'model accuracies':model_acc,
+                    'model deviations':deviations,
+                    'model types':modeltypes,
+                    'features':features.tolist(),
+                    'count':count,
+                    'errorcount':errorcount,
+                    }
+                json.dump(data,jsonfile)
+                jsonfile.close()
+
+            count=count+1
+    except:
+        errorcount=errorcount+1
+        count=count+1 
