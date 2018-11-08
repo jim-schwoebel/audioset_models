@@ -1,7 +1,9 @@
 # audioset-models
 This repository makes it easy to apply 527 machine learning models trained on [download_audioset](https://github.com/jim-schwoebel/download_audioset) and control folders. 
 
-These machine learning models were trained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository,
+These machine learning models were trained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository.
+
+![](https://gph.is/2vBbJtm).
 
 ## how dataset was made
 The dataset was made making a variable dataset and a control dataset composed of an equal mixture of all the other classes. In this way, it was assumed that all classes are equally probable in the wild. 
