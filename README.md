@@ -3,7 +3,7 @@ This repository makes it easy to apply 527 machine learning models trained on [d
 
 These machine learning models were trained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository.
 
-!(https://gph.is/2vBbJtm)[].
+![](https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif)
 
 ## how dataset was made
 The dataset was made making a variable dataset and a control dataset composed of an equal mixture of all the other classes. In this way, it was assumed that all classes are equally probable in the wild. 
