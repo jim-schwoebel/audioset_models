@@ -1,5 +1,14 @@
 # audioset-models
-List of models built with machine learning scripts from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository, trained on [download_audioset](https://github.com/jim-schwoebel/download_audioset) folders.
+List of models built with machine learning scripts from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository, trained on [download_audioset](https://github.com/jim-schwoebel/download_audioset) folders. 
+
+## how dataset was made
+The dataset was made making a variable dataset and a control dataset composed of an equal mixture of all the other classes. In this way, it was assumed that all classes are equally probable in the wild. 
+
+The goal here was just to see which groups are most easily separated from the rest and generally to see which algorithms work best on a MFCC-based feature embedding, as described by train_audioclassify.py script in the [Chapter 4: Modeling](https://github.com/jim-schwoebel/voicebook/tree/master/chapter_4_modeling) chapter of the [Voicebook](ttps://github.com/jim-schwoebel/voicebook).
+
+## performance of models 
+
+Here are the performance of the models, from least accurate to most accurate. 
 
 | Model Name | Accuracy | Standard Deviation | Modeltype |
 |-----|-----|-----|-----|
