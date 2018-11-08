@@ -1,5 +1,5 @@
 # audioset-models
-List of models built with nlx-models repository, trained on [Audioset_Download]() folders.
+List of models built with machine learning scripts from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository, trained on [download_audioset](https://github.com/jim-schwoebel/download_audioset) folders.
 
 | Model Name | Accuracy | Standard Deviation | Modeltype |
 |-----|-----|-----|-----|
@@ -530,3 +530,6 @@ List of models built with nlx-models repository, trained on [Audioset_Download](
 | MusicofAsia_MusicofAsia_controls_sc_audio | 0.9555555555555555 | 0.08888888888888889 | random forest |
 | Capgun_Capgun_controls_sc_audio | 0.975 | 0.049999999999999996 | logistic regression |
 | Boom_Boom_controls_sc_audio | 0.9777777777777779 | 0.04444444444444447 | logistic regression |
+
+## references
+* Audioset. https://research.google.com/audioset/
