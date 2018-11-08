@@ -6,6 +6,10 @@ The dataset was made making a variable dataset and a control dataset composed of
 
 The goal here was just to see which groups are most easily separated from the rest and generally to see which algorithms work best on a MFCC-based feature embedding, as described by train_audioclassify.py script in the [Chapter 4: Modeling](https://github.com/jim-schwoebel/voicebook/tree/master/chapter_4_modeling) chapter of the [Voicebook](ttps://github.com/jim-schwoebel/voicebook).
 
+## applying models
+
+To apply the models, all you need to do is run load_audioclasisfy.py
+
 ## performance of models 
 
 Here are the performance of the models, from least accurate to most accurate. 
