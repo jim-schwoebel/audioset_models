@@ -26,7 +26,7 @@ Then, all the audio files (in .WAV format) are featurized and classified in the 
 
 As you can see, the file is correctly classified as piano and electric piano classes relative to controls. The rest of the classes are arbitrary and likely have some false positives, so feel free to remove some of the models in the models directory to accomplish your use case. 
 
-## performance of models 
+## Performance of models 
 
 Here are the performance of the models, from least accurate to most accurate. 
 
