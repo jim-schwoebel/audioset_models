@@ -560,6 +560,15 @@ Here are the performance of the models, from least accurate to most accurate.
 | Capgun_Capgun_controls_sc_audio | 0.975 | 0.049999999999999996 | logistic regression |
 | Boom_Boom_controls_sc_audio | 0.9777777777777779 | 0.04444444444444447 | logistic regression |
 
+## Feedback
+Any feedback on the book or this repository is greatly appreciated. 
+* If you find something that is missing or doesn't work, please consider opening a [GitHub issue](https://github.com/jim-schwoebel/audioset_models/issues).
+* If you'd like to be mentored by someone on our team, check out the [Innovation Fellows Program](http://neurolex.ai/research).
+* If you want to talk to me directly, please send me an email @ js@neurolex.co. 
+
+## License
+This repository is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+
 ## References
 * [Audioset](https://research.google.com/audioset/)
 * [Download_Audioset]((https://github.com/jim-schwoebel/download_audioset))
