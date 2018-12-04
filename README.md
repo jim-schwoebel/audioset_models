@@ -5,12 +5,12 @@ These machine learning models were trained from scripts obtained from the [voice
 
 ![](https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif)
 
-## how dataset was made
+## How the dataset was made
 The dataset was made making a variable dataset and a control dataset composed of an equal mixture of all the other classes made from the [download_audioset repository](https://github.com/jim-schwoebel/download_audioset). In this way, it was assumed that all classes are equally probable in the wild. 
 
 The goal here was just to see which groups are most easily separated from the rest and generally to see which algorithms work best on a MFCC-based feature embedding, as described by train_audioclassify.py script in the [Chapter 4: Modeling](https://github.com/jim-schwoebel/voicebook/tree/master/chapter_4_modeling) chapter of the [Voicebook](ttps://github.com/jim-schwoebel/voicebook).
 
-## applying models
+## Applying models
 
 To apply the models, all you need to do is to put an audio file in the ./load_dir folder and run load_models.py from the terminal:
 
@@ -560,5 +560,6 @@ Here are the performance of the models, from least accurate to most accurate.
 | Capgun_Capgun_controls_sc_audio | 0.975 | 0.049999999999999996 | logistic regression |
 | Boom_Boom_controls_sc_audio | 0.9777777777777779 | 0.04444444444444447 | logistic regression |
 
-## references
-* Audioset. https://research.google.com/audioset/
+## References
+* [Audioset](https://research.google.com/audioset/)
+* [Download_Audioset]((https://github.com/jim-schwoebel/download_audioset))
