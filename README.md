@@ -571,4 +571,4 @@ This repository is licensed under the [Apache 2.0 License](https://www.apache.or
 
 ## References
 * [Audioset](https://research.google.com/audioset/)
-* [Download_Audioset]((https://github.com/jim-schwoebel/download_audioset))
+* [Download_Audioset](https://github.com/jim-schwoebel/download_audioset)
