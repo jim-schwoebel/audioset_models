@@ -5,6 +5,16 @@ These machine learning models were trained from scripts obtained from the [voice
 
 ![](https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif)
 
+## Getting started 
+
+To get started, clone the repository and download all the dependencies:
+
+```
+git clone 
+cd 
+pip3 install -r requirements.txt
+```
+
 ## How the dataset was made
 The dataset was made making a variable dataset and a control dataset composed of an equal mixture of all the other classes made from the [download_audioset repository](https://github.com/jim-schwoebel/download_audioset). In this way, it was assumed that all classes are equally probable in the wild. 
 
