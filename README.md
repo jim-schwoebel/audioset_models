@@ -15,7 +15,7 @@ cd audioset_models
 python3 -m pip install --user virtualenv
 python3 -m venv env
 source env/bin/activate
-pip3 -m install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## How the dataset was made
