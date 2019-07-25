@@ -10,8 +10,8 @@ These machine learning models were trained from scripts obtained from the [voice
 To get started, clone the repository and download all the dependencies:
 
 ```
-git clone 
-cd 
+git clone git@github.com:jim-schwoebel/audioset_models.git
+cd audioset_models
 pip3 install -r requirements.txt
 ```
 
