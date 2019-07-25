@@ -1,0 +1,9 @@
+librosa==0.6.2
+pydub
+nltk
+scikit-learn==0.19.1
+TextBlob
+numpy
+datetime
+tpot
+SpeechRecognition
