@@ -12,7 +12,10 @@ To get started, clone the repository and download all the dependencies:
 ```
 git clone git@github.com:jim-schwoebel/audioset_models.git
 cd audioset_models
-pip3 install -r requirements.txt
+python3 -m pip install --user virtualenv
+python3 -m venv env
+source env/bin/activate
+pip3 -m install requirements.txt
 ```
 
 ## How the dataset was made
