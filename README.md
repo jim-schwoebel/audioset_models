@@ -577,7 +577,7 @@ Here are the performance of the models, from least accurate to most accurate.
 Any feedback this repository is greatly appreciated. 
 * If you find something that is missing or doesn't work, please consider opening a [GitHub issue](https://github.com/jim-schwoebel/audioset_models/issues).
 * If you want to learn more about voice computing, check out [Voice Computing in Python](https://github.com/jim-schwoebel/voicebook) book.
-* If you are looking for a framework to start building machine learning applications in voice computing, check out [Allie](https://github.com/jim-schwoebel/allie).
+* If you are looking for a framework to start building machine learning models in voice computing, check out [Allie](https://github.com/jim-schwoebel/allie).
 * If you'd like to be mentored by someone on our team, check out the [Innovation Fellows Program](http://neurolex.ai/research).
 * If you want to talk to me directly, please send me an email @ js@neurolex.co. 
 
