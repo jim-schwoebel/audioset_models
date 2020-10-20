@@ -3,6 +3,10 @@ This repository makes it easy to apply 527 machine learning models trained on [A
 
 These machine learning models were trained from scripts obtained from the [voicebook](https://github.com/jim-schwoebel/voicebook) repository and the data was obtained by implementing scripts from the [download_audioset repository](https://github.com/jim-schwoebel/download_audioset).
 
+Here are some other AudioSet ML projects:
+- [AudioSet Tagging CNN](https://github.com/qiuqiangkong/audioset_tagging_cnn) 
+- [IBM AudioSet Classification](https://github.com/IBM/audioset-classification)
+
 ![](https://media.giphy.com/media/13Nc3xlO1kGg3S/giphy.gif)
 
 ## Getting started 
